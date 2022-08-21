@@ -1,13 +1,13 @@
 terraform {
   backend "s3" {
-    bucket = "hi1280-tfstate-main"
+    bucket = "momohana-tfstate-main"
     key    = "terraform-auto-apply.tfstate"
-    region = "ap-northeast-1"
+    region = "us-west-2"
   }
 }
 
 provider "aws" {
-  region = "ap-northeast-1"
+  region = "us-west-2"
 }
 
 data "aws_caller_identity" "current" {}
