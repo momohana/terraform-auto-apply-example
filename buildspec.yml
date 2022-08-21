@@ -1,0 +1,10 @@
+version: 0.2
+env:
+  parameter-store:
+    SLACK_CHANNEL_ID: /slack/channel
+    SLACK_TOKEN: /slack/token
+    GITHUB_TOKEN: /github_token
+phases:
+  build:
+    commands:
+      - ${CODEBUILD_SRC_DIR}/scripts/build.sh
