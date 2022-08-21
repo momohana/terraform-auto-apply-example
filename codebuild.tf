@@ -15,7 +15,7 @@ resource "aws_codebuild_project" "terraform_auto_apply_example" {
 
   source {
     type            = "GITHUB"
-    location        = "https://github.com/hi1280/terraform-auto-apply-example.git"
+    location        = "https://github.com/momohana/terraform-auto-apply-example.git"
     git_clone_depth = 1
     git_submodules_config {
       fetch_submodules = false

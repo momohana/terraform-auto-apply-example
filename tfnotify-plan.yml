@@ -3,7 +3,7 @@ notifier:
   github:
     token: $GITHUB_TOKEN
     repository:
-      owner: "hi1280"
+      owner: "momohana"
       name: "terraform-auto-apply-example"
 terraform:
   plan:
